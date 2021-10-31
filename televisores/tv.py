@@ -7,11 +7,12 @@ class TV:
 		self.canal = 1
 		self.volumen = 1
 		self.precio = 500
+		TV.numTV = TV.numTV + 1
 	def setMarca(self,marca):
 		self.marca = marca 
 	def setControl(self,control):
 		self.control = control 
-
+		
 
 
 	def setPrecio(self,precio):
